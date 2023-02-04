@@ -1,0 +1,88 @@
+body {
+  overflow-x: hidden;
+}
+.firstpage {
+  background-color: rgb(17, 79, 134);
+  height: 100vh;
+  color: beige;
+  padding: 2%;
+}
+.navb {
+  margin: auto;
+}
+.navlink {
+  display: inline-block;
+  vertical-align: top;
+  padding-top: 2%;
+  text-align: center !important;
+}
+.navb a {
+  text-decoration: none;
+  font-size: 18px;
+  padding: 0px 30px;
+  margin: auto;
+  display: inline-block;
+  color: beige;
+}
+.navb img {
+  width: 8%;
+  border-radius: 90px;
+  margin-right: 10%;
+  margin-left: 8%;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.content h1 {
+  font-size: 60px;
+  text-align: center;
+}
+.content p {
+  text-align: center;
+}
+.trustW {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.content button {
+  border: none;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin: 5px;
+  color: beige;
+}
+.content img {
+  margin-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 58%;
+  border-radius: 30px;
+}
+.footerr {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+}
+.footerr hr {
+  width: 100vh;
+  opacity: 0.9;
+}
+.footImage img {
+  width: 75px;
+  opacity: 0.8;
+}
+.footImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5%;
+}

@@ -1,0 +1,38 @@
+.secondpage {
+  height: 100vh;
+  position: absolute;
+  top: 168%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.secondpage h1 {
+  font-size: 40px;
+  line-height: 30px;
+}
+.secondpage p {
+  font-size: 14px;
+  color: rgb(104, 102, 102);
+}
+.trustW {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.secondpage button {
+  font-size: 15px;
+  color: "#2214e8";
+  background-color: rgb(237, 238, 247);
+  border: none;
+  border: 1px solid rgb(240, 234, 234);
+  border-radius: 5px;
+  padding: 12px;
+  margin: 30px;
+}
+.secondpage img {
+  width: 65%;
+  border-radius: 16px;
+  margin: 30px;
+}
